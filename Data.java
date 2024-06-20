@@ -1,10 +1,34 @@
-public class Data {
-
-    private String name;
-    private String username;
-    private String firstname;
-    private String lastname;
+public class Data{
+    private int id;
     private String email;
+    private String name;
+    private Integer age;
+
+    public Data() {
+    }
+
+    public Data(int id, String email, String name, Integer age) {
+        this.id = id;
+        this.email = email;
+        this.name = name;
+        this.age = age;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
 
     public String getName() {
         return name;
@@ -14,35 +38,11 @@ public class Data {
         this.name = name;
     }
 
-    public String getUsername() {
-        return username;
+    public Integer getAge() {
+        return age;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
-    public String getFirstname() {
-        return firstname;
-    }
-
-    public void setFirstname(String firstname) {
-        this.firstname = firstname;
-    }
-
-    public String getLastname() {
-        return lastname;
-    }
-
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
+    public void setAge(Integer age) {
+        this.age = age;
     }
 }
