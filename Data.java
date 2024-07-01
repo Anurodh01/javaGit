@@ -1,5 +1,5 @@
 public class Data{
-    private int id;
+    private Integer id;
     private String email;
     private String name;
     private Integer age;
