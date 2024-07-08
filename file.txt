@@ -1,3 +1,6 @@
 this is text file added from feature/customer branch
 
 Changes made again.
+
+Done changes from feature/customer branch.
+Another change done.
