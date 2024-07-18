@@ -1,2 +1,0 @@
-I am from mp email txt.
-This newline changed from the feature/bugfix-1129 branch.
