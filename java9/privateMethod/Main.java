@@ -1,4 +1,4 @@
-package java9;
+package java9.privateMethod;
 
 public class Main {
     public static void main(String[] args) {

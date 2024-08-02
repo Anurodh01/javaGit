@@ -1,4 +1,4 @@
-package java9;
+package java9.privateMethod;
 
 public interface PrivateMethodsInInterface {
     default int getNumberofCores1(){

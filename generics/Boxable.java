@@ -1,2 +1,4 @@
-package generics;public interface Boxable {
+package generics;
+
+public interface Boxable {
 }

@@ -3,3 +3,4 @@
 ignore.txt
 /docs
 junit-tests.iml
+/junit-tests/target
