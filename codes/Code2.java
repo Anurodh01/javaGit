@@ -26,5 +26,6 @@ public class Code2 {
     public static void main(String[] args) {
         Barathean sp = new Barathean();
         sp.onlySuper();
+        System.out.println("master changed");
     }
 }
