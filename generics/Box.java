@@ -5,7 +5,23 @@ import java.util.List;
 
 public class Box<T extends Boxable>{
     private List<T> items;
+    private List<T> data;
 
+    public void setItems(List<T> items) {
+        this.items = items;
+    }
+
+    public List<T> getData() {
+        return data;
+    }
+
+    public void setData(List<T> data) {
+        this.data = data;
+    }
+
+    public Box(List<T> items){
+        this.items = new ArrayList<>();
+    }
     public List<T> getItems() {
         return items;
     }
