@@ -10,5 +10,6 @@ public class Code1 {
         arraylist.add("aman");
         arraylist.add(1);
         System.out.println(arraylist);
+        System.out.println("Master changed");
     }
 }
