@@ -9,7 +9,7 @@ public class Book implements Boxable{
         this.authorName = authorName;
         this.price = price;
     }
-
+    public Book(){}
     public String getName() {
         return name;
     }
