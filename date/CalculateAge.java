@@ -4,6 +4,9 @@ import java.time.*;
 import java.time.temporal.ChronoUnit;
 
 public class CalculateAge {
+    public Calculate(){
+        System.out.println("origin/master updated");
+    }
     public static void main(String[] args) {
         LocalDate currentDate = LocalDate.now();
         LocalDate birthDate = LocalDate.of(1999, Month.AUGUST, 17);
