@@ -34,4 +34,9 @@ public class CalculateAge {
         long seconds = ChronoUnit.SECONDS.between(startTime, endTime);
         System.out.printf("Hours: %d, Minutes: %d, Seconds: %d", hours, minutes, seconds);
     }
+    public static void calculateTotalTime(LocalDateTime startTime , LocalDateTime endTime){
+        System.out.println("Total time Taken: "+ChronoUnit.HOURS.between(startTime, endTime));
+        System.out.println("Thank you!");
+        System.out.println("Total time taken in days: "+ ChronoUnit.DAYS.between(startTime,endTime));
+    }
 }
