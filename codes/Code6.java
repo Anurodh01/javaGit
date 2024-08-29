@@ -17,5 +17,6 @@ public class Code6 {
         }
 
         System.out.println("last");
+        System.out.println("HELLO");
     }
 }
