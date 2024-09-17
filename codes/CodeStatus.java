@@ -19,4 +19,7 @@ public class CodeStatus {
         Employee employee = employees.stream().sorted(Comparator.comparing(Employee::getAge).reversed()).findFirst().get();
         System.out.println(employee);
     }
+    public static Employee getFemaleEmployee(List<Employee> employees){
+        return employees.stream().filter(e-> e.getGender().equals("F")).findFirst().get();
+    }
 }
