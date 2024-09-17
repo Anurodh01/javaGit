@@ -18,5 +18,7 @@ public class CodeStatus {
         List<Employee> employees = Arrays.asList(new Employee("Abhishek",23,"F",60000), new Employee("Anurodh",25,"M",50000), new Employee("Chirag",48,"F",80000));
         Employee employee = employees.stream().sorted(Comparator.comparing(Employee::getAge).reversed()).findFirst().get();
         System.out.println(employee);
+        Employee employeeWithMaxSalary = employees.stream().sorted(Comparator.comparing(Employee::getSalary)).findFirst().get();
+        System.out.println(employeeWithMaxSalary);
     }
 }
