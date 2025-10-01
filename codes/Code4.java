@@ -21,5 +21,6 @@ public class Code4 {
         RedApple redApple = new RedApple();
         redApple.setIsRiped(true);
         System.out.println(redApple.getStatusOfApple());
+        System.out.println("CODE$ changed by feature/my-branch")
     }
 }
