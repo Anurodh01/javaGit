@@ -1,14 +1,25 @@
 package codes;
-
-public class Code4 {
-    private int i;
-    public Code4(int i){
-        this.i = i;
+abstract class Apple{
+    protected boolean isRiped;
+    public Apple(){
+        System.out.println("Constructor Apple called!");
     }
+    public void setIsRiped(boolean isRiped){
+        this.isRiped = isRiped;
+    }
+}
+class RedApple extends Apple{
+    public RedApple(){
+        super();
+    }
+    public boolean getStatusOfApple(){
+        return super.isRiped;
+    }
+}
+public class Code4 {
     public static void main(String []args){
-        Code4 c1= new Code4(3);
-        Code4 c2= new Code4(3);
-        System.out.println(c1 == c2);
-        System.out.println(c1.equals(c2));
+        RedApple redApple = new RedApple();
+        redApple.setIsRiped(true);
+        System.out.println(redApple.getStatusOfApple());
     }
 }
