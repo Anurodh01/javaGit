@@ -24,5 +24,10 @@ public class CodeStatus {
     }
     public static Employee getFemaleEmployee(List<Employee> employees){
         return employees.stream().filter(e-> e.getGender().equals("F")).findFirst().get();
+        Employee employeeWithMaxSalary = employees.stream().sorted(Comparator.comparing(Employee::getSalary)).findFirst().get();
+        System.out.println(employeeWithMaxSalary);
+    }
+    public static Employee getFemaleEmployee(List<Employee> employees){
+        return employees.stream().filter(e-> e.getGender().equals("F")).findFirst().get();
     }
 }

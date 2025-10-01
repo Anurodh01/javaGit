@@ -6,3 +6,6 @@ public abstract class A {
 public abstract class B{
     abstract void displayB();
 }
+public abstract class feature_Branch{
+    abstract void displayBranch();
+}
