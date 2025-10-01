@@ -6,6 +6,7 @@ public class Code5 extends Thread {
         thread1.setName("POLO-1");
         thread1.setPriority(Thread.MAX_PRIORITY);
         thread2.setName("POLO-2");
+        System.out.println("CODe5 changed by feature/branch1")
         thread2.setPriority(1);
         thread2.start();
         thread1.start();

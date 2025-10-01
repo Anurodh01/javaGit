@@ -8,6 +8,7 @@ public enum ErrorCode {
         this.errorCode = errorCode;
         this.message  = message;
         System.out.println("Feature/Branch1 changed");
+        System.out.println("feature/branch1 again changed");
     }
 
 }
