@@ -5,6 +5,7 @@ import java.util.*;
 public class CodeStatus {
     {
         System.out.println("Value assigned!");
+        //comment added //master iteself
     }
     static{
         System.out.println("Hello from Code status");
