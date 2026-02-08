@@ -10,6 +10,7 @@ public enum ErrorCode {
         System.out.println("Feature/Branch1 changed");
         System.out.println("feature/branch1 again changed");
         System.out.println("Feature updated");
+        System.out.println("feature/b1 yet again changed");
     }
 
 }

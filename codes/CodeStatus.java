@@ -6,6 +6,7 @@ public class CodeStatus {
     {
         System.out.println("Value assigned!");
         //comment added //master iteself
+        System.out.println("Feature/b1 changed");
     }
     static{
         System.out.println("Hello from Code status");
