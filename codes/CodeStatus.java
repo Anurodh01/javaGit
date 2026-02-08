@@ -5,6 +5,7 @@ import java.util.*;
 public class CodeStatus {
     {
         System.out.println("Value assigned!");
+        System.out.println("Feature/b1 changed");
     }
     static{
         System.out.println("Hello from Code status");
